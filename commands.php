@@ -1,5 +1,8 @@
 <?php
 
+use Jakmall\Recruitment\Calculator\Commands;
+
 return [
-    \Jakmall\Recruitment\Calculator\Commands\AddCommand::class,
+    Commands\AddCommand::class,
+    Commands\SubtractCommand::class,
 ];
